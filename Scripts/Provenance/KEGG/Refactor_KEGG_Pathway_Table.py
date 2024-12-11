@@ -7,42 +7,81 @@ import re, sys
 # Parse pathways
 ###########################################################
 
-reaction_file = "data/pathway"
-pathway_dict = dict()
-pathways_list = list()
-with open(reaction_file) as cfh:
+pathway_file = "data/pathway"
+pathways_dict = dict()
+pathway_id=None
+with open(pathway_file) as cfh:
 	for line in cfh.readlines():
 		line=line.strip('\r\n')
-		tmp_list=re.split('\s+',line)
-		data=" ".join(tmp_list[1:])
-		if(tmp_list[0] != ""):
-			field = tmp_list[0]
+		tmp_lst=re.split('\s+',line)
+		data=" ".join(tmp_lst[1:])
+		if(tmp_lst[0] != ""):
+			field = tmp_lst[0]
 
 		if(field == "ENTRY"):
-			pathway_dict = {'id':tmp_list[1],
-					 'name':"",'description':"",
-					 'reactions':[]}
+			pathway = tmp_lst[1]
+			pathways_dict[pathway] = {'name':"",'description':"",
+						  'reactions':[],
+						  'parent':[]}
 
 		elif(field == "NAME"):
 			data=data.rstrip(';')
-			pathway_dict['name']=data
+			pathways_dict[pathway]['name']=data
 		elif(field == "DESCRIPTION"):
-			pathway_dict['description']=data
+			pathways_dict[pathway]['description']=data
 		elif(field == "REACTION"):
 			rxn=data.split(" ")[0]
-			pathway_dict['reactions'].append(rxn)
+			pathways_dict[pathway]['reactions'].append(rxn)
 		else:
 			#print(field)
 			pass
 
 		if(field == "///"):
 
-			if(len(pathway_dict['reactions']) == 0):
-				continue
+			if(len(pathways_dict[pathway]['reactions']) == 0):
+				del(pathways_dict[pathway])
 
-			pathways_list.append(pathway_dict)
+module=None
+module_file = "data/module"
+with open(module_file) as cfh:
+	for line in cfh.readlines():
+		line=line.strip('\r\n')
+		tmp_lst=re.split('\s+',line)
+		data=" ".join(tmp_lst[1:])
+		if(tmp_lst[0] != ""):
+			field = tmp_lst[0]
+
+		if(field == "ENTRY"):
+			module = tmp_lst[1]
+			pathways_dict[module] = {'name':"",'description':"",
+						 'reactions':[],
+						 'parent':[]}
+
+		elif(field == "NAME"):
+			data=data.rstrip(';')
+			pathways_dict[module]['name']=data
+		elif(field == "DESCRIPTION"):
+			pathways_dict[module]['description']=data
+		elif(field == "REACTION"):
+			rxn=data.split(" ")[0]
+			pathways_dict[module]['reactions'].append(rxn)
+		elif(field == "PATHWAY"):
+			pwy=data.split(" ")[0]
+			pwy = pwy.replace('map','rn')
+			if(pwy not in pathways_dict):
+				print(module,pwy)
+			else:
+				pathways_dict[module]['parent'].append(pwy)
+		else:
+			#print(field)
+			pass
+
+		if(field == "///"):
+
+			if(len(pathways_dict[module]['reactions']) == 0):
+				del(pathways_dict[module])
 
 with open("KEGG_pathways.tsv",'w') as kpfh:
-	kpfh.write("\t".join(["id","name","description","reactions"])+"\n")
-	for pwy in pathways_list:
-		kpfh.write("\t".join([pwy['id'], pwy['name'], pwy['description'], "|".join(pwy['reactions'])])+"\n")
+	kpfh.write("\t".join(["id","name","description","reactions","parent"])+"\n")
+	for pwy in pathways_dict:
+		kpfh.write("\t".join([pwy, pathways_dict[pwy]['name'], pathways_dict[pwy]['description'], "|".join(pathways_dict[pwy]['reactions']), "|".join(pathways_dict[pwy]['parent'])])+"\n")
