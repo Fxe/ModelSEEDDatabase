@@ -10,22 +10,12 @@ erDiagram
         TEXT pkb
     }
 
-    molecule_annotation {
-        VARCHAR molecule_id FK
-        VARCHAR ontology_node_id FK
-    }
-
     molecular_structure {
-        VARCHAR molecule_id FK
+        VARCHAR compound_id FK
         TEXT inchi
         TEXT inchikey
         TEXT smiles
         BINARY molecule
-    }
-
-    enzyme_abstraction {
-        VARCHAR enzyme_id FK
-        VARCHAR ontology_node_id FK
     }
 
     compartment_annotation {
@@ -53,11 +43,6 @@ erDiagram
         BOOLEAN is_transport
     }
 
-    reaction_annotation {
-        VARCHAR reaction_id FK
-        VARCHAR ontology_node_id FK
-    }
-
     enzyme {
         VARCHAR enzyme_id PK
         VARCHAR enzyme_classification
@@ -70,8 +55,5 @@ erDiagram
     catalyst ||--|| enzyme : ""
     catalyst ||--|| molecule : ""
     molecule ||--|| molecular_structure : ""
-    molecule ||--o{ molecule_annotation : ""
-    reaction ||--o{ reaction_annotation : ""
-    enzyme ||--o{ enzyme_abstraction : ""
     reagent ||--|| compartment_annotation : ""
 
