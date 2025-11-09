@@ -4018,7 +4018,7 @@
         "equation": "(1) cpd02889[1] <=> (1) cpd02889[0]",
         "id": "rxn53055",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "50980",
         "notes": [],
@@ -4067,7 +4067,7 @@
         "equation": "(1) cpd41685[1] <=> (1) cpd41685[0]",
         "id": "rxn53056",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "50992",
         "notes": [],
@@ -7163,7 +7163,7 @@
         "equation": "(1) cpd00099[1] + (1) cpd00579[1] + (1) cpd00971[1] <=> (1) cpd00099[0] + (1) cpd00579[0] + (1) cpd00971[0]",
         "id": "rxn53097",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51196",
         "notes": [],
@@ -12848,7 +12848,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00049[1] + (1) cpd00067[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (3) cpd00067[0] + (1) cpd13404[0]",
         "id": "rxn53176",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51580",
         "notes": [
@@ -14512,7 +14512,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd00214[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd00134[0]",
         "id": "rxn53196",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51716",
         "notes": [
@@ -14611,7 +14611,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd01080[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd00327[0]",
         "id": "rxn53197",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51720",
         "notes": [
@@ -15223,7 +15223,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd00536[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd00399[0]",
         "id": "rxn53205",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51808",
         "notes": [
@@ -15322,7 +15322,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd03847[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd01695[0]",
         "id": "rxn53206",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51812",
         "notes": [
@@ -15421,7 +15421,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd01741[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd01260[0]",
         "id": "rxn53207",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51816",
         "notes": [
@@ -15520,7 +15520,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd01107[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd03128[0]",
         "id": "rxn53208",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51820",
         "notes": [
@@ -15619,7 +15619,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd03846[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd01335[0]",
         "id": "rxn53209",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51824",
         "notes": [
@@ -15718,7 +15718,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd05196[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd16343[0]",
         "id": "rxn53210",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51828",
         "notes": [
@@ -15817,7 +15817,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd05235[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd15297[0]",
         "id": "rxn53211",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51832",
         "notes": [
@@ -15916,7 +15916,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd05237[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd34204[0]",
         "id": "rxn53212",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51836",
         "notes": [
@@ -16080,7 +16080,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd01122[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd01398[0]",
         "id": "rxn53215",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51852",
         "notes": [
@@ -16179,7 +16179,7 @@
         "equation": "(1) cpd00002[0] + (1) cpd00010[0] + (1) cpd00067[1] + (1) cpd25828[1] <=> (1) cpd00012[0] + (1) cpd00018[0] + (2) cpd00067[0] + (1) cpd03126[0]",
         "id": "rxn53216",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "51856",
         "notes": [
@@ -38892,7 +38892,7 @@
         "equation": "(2) cpd00971[0] + (1) cpd02246[0] + (1) cpd02737[0] <=> (1) cpd00895[0] + (2) cpd00971[1] + (1) cpd02438[0]",
         "id": "rxn53511",
         "is_obsolete": 0,
-        "is_transport": 0,
+        "is_transport": 1,
         "linked_reaction": null,
         "name": "53492",
         "notes": [],
