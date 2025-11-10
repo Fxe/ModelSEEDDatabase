@@ -10780,7 +10780,7 @@
                 "coefficient": -1,
                 "compartment": 0,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             },
             {
@@ -14609,7 +14609,7 @@
                 "coefficient": 1,
                 "compartment": 0,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             },
             {
@@ -19031,7 +19031,7 @@
                 "coefficient": -1,
                 "compartment": 0,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             },
             {
@@ -54405,7 +54405,7 @@
                 "coefficient": -1,
                 "compartment": 0,
                 "compound": "cpd12458",
-                "formula": "C18H35OS",
+                "formula": "C29H60N3O8PR2S",
                 "name": "Stearoyl-[acyl-carrier protein]"
             },
             {

@@ -23096,7 +23096,7 @@
                 "coefficient": -1,
                 "compartment": 0,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             },
             {
@@ -23104,7 +23104,7 @@
                 "coefficient": 1,
                 "compartment": 1,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             }
         ],
@@ -31295,7 +31295,7 @@
                 "coefficient": -8,
                 "compartment": 0,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             },
             {
@@ -65192,7 +65192,7 @@
                 "coefficient": -4,
                 "compartment": 1,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             },
             {
@@ -65263,7 +65263,7 @@
                 "coefficient": -1,
                 "compartment": 0,
                 "compound": "cpd11632",
-                "formula": "R",
+                "formula": "",
                 "name": "hn"
             }
         ],
