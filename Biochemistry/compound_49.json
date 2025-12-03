@@ -675,5 +675,51 @@
                 10000000.0
             ]
         }
+    },
+    {
+        "abbreviation": "OMP Cytochrome C (Red)",
+        "abstract_compound": null,
+        "aliases": null,
+        "charge": -2,
+        "comprised_of": null,
+        "deltag": 10000000.0,
+        "deltagerr": 10000000.0,
+        "formula": "FeR",
+        "id": "cpd49021",
+        "inchikey": "",
+        "is_cofactor": 0,
+        "is_core": 0,
+        "is_obsolete": 0,
+        "linked_compound": null,
+        "mass": 10000000,
+        "name": "OMP Cytochrome C (Red)",
+        "notes": [],
+        "pka": "",
+        "pkb": "",
+        "smiles": "",
+        "source": "User"
+    },
+    {
+        "abbreviation": "OMP Cytochrome C (Ox)",
+        "abstract_compound": null,
+        "aliases": null,
+        "charge": -1,
+        "comprised_of": null,
+        "deltag": 10000000.0,
+        "deltagerr": 10000000.0,
+        "formula": "FeR",
+        "id": "cpd49022",
+        "inchikey": "",
+        "is_cofactor": 0,
+        "is_core": 0,
+        "is_obsolete": 0,
+        "linked_compound": null,
+        "mass": 10000000,
+        "name": "OMP Cytochrome C (Ox)",
+        "notes": [],
+        "pka": "",
+        "pkb": "",
+        "smiles": "",
+        "source": "User"
     }
 ]
