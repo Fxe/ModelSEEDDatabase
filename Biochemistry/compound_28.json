@@ -6507,9 +6507,9 @@
         "abbreviation": "Sulfur-Acceptors",
         "abstract_compound": null,
         "aliases": [
-            "Name: Lichtquant; a glutamyl acceptor; a halide anion; foton; gamma; halide anions; halide ions; halide(1-); halides; halogen anion; light quantum; photon",
+            "Name: a glutamyl acceptor; a halide anion; halide anions; halide ions; halide(1-); halides; halogen anion",
             "AraCyc: Sulfur-Acceptors",
-            "ChEBI: 13193; 16042; 30212",
+            "ChEBI: 13193; 16042",
             "CornCyc: Sulfur-Acceptors",
             "EcoCyc: Sulfur-Acceptors",
             "MetaCyc: Glutamyl-Acceptors; Sulfur-Acceptors"

@@ -3,10 +3,10 @@
         "abbreviation": "photon",
         "abstract_compound": null,
         "aliases": [
-            "Name: Light; Photon; a photon; hn; hnu; light; photon_b",
+            "Name: Lichtquant; Light; Photon; a photon; foton; gamma; hn; hnu; light; light quantum; photon; photon_b",
             "AraCyc: Light",
             "BiGG: photon",
-            "CornCyc: Light",
+            "ChEBI: 30212",
             "KEGG: C00205",
             "MetaCyc: Light"
         ],

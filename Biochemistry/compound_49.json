@@ -679,7 +679,9 @@
     {
         "abbreviation": "OMP Cytochrome C (Red)",
         "abstract_compound": null,
-        "aliases": null,
+        "aliases": [
+            "Name: OMP Cytochrome C (Red)"
+        ],
         "charge": -2,
         "comprised_of": null,
         "deltag": 10000000.0,
@@ -702,7 +704,9 @@
     {
         "abbreviation": "OMP Cytochrome C (Ox)",
         "abstract_compound": null,
-        "aliases": null,
+        "aliases": [
+            "Name: OMP Cytochrome C (Ox)"
+        ],
         "charge": -1,
         "comprised_of": null,
         "deltag": 10000000.0,
