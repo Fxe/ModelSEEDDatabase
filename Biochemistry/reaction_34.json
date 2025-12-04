@@ -17742,7 +17742,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-4",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -43291,7 +43291,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Published Model",
-        "status": "MI:C:-11/H:-21/N:-2/O:-7/P:-1/R:-1",
+        "status": "MI:H:4/N:1/R:1",
         "stoichiometry": [
             {
                 "charge": -2,
@@ -44189,7 +44189,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:11/H:21/N:2/O:7/P:1/R:1|CI:-2",
+        "status": "MI:H:-4/N:-1/R:-1|CI:-2",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -45965,7 +45965,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:-11/H:-21/N:-2/O:-7/P:-1/R:-1|CI:2",
+        "status": "MI:H:4/N:1/R:1|CI:2",
         "stoichiometry": [
             {
                 "charge": -3,
@@ -62142,7 +62142,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:11/H:21/N:2/O:7/P:1/R:1|CI:-2",
+        "status": "MI:H:-4/N:-1/R:-1|CI:-2",
         "stoichiometry": [
             {
                 "charge": -2,

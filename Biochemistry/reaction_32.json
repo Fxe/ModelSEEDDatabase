@@ -2495,7 +2495,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Published Model",
-        "status": "MI:R:-8",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": -2,

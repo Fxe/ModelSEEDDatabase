@@ -66,13 +66,17 @@ with open(Structures_Root+"Curation/Ignored_Structures_Publication2020.txt") as 
             print("Warning, no SMILES to ignore for "+external_id)
 
 for cpd in sorted (compounds_dict.keys()):
+    # Skip Light!
+    if(cpd == 'cpd11632'):
+        continue
+
     if(cpd not in structures_dict):
         compounds_dict[cpd]['inchikey']=""
         compounds_dict[cpd]['smiles']=""
 
         if(cpd in Ignored_Structures):
             compounds_dict[cpd]['formula']="R"
-            compounds_dict[cpd]['charge']="0"
+            compounds_dict[cpd]['charge']=0
             continue
 
         if(cpd in Overridden_Fields):
@@ -83,7 +87,7 @@ for cpd in sorted (compounds_dict.keys()):
             continue
 
     else:
-        formula_charge_dict={'formula':'null','charge':'0'}
+        formula_charge_dict={'formula':'null','charge':0}
         inchikey=""
         smile=""
         if('InChI' in structures_dict[cpd]):
@@ -93,7 +97,7 @@ for cpd in sorted (compounds_dict.keys()):
             struct = list(structures_dict[cpd]['SMILE'].keys())[0]
             formula_charge_dict = structures_dict[cpd]['SMILE'][struct]
         if(formula_charge_dict['charge']=='null'):
-            formula_charge_dict['charge']='0'
+            formula_charge_dict['charge']=0
 
         if('InChIKey' in structures_dict[cpd]):
             inchikey = sorted(list(structures_dict[cpd]['InChIKey'].keys()))[0]

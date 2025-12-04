@@ -22591,7 +22591,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:O:-1/R:2",
+        "status": "MI:O:-1/R:1",
         "stoichiometry": [
             {
                 "charge": 0,

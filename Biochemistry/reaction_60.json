@@ -59906,7 +59906,7 @@
         "pathways": null,
         "reversibility": "=",
         "source": "User",
-        "status": "NB",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 2,
@@ -59963,7 +59963,7 @@
         "pathways": null,
         "reversibility": "=",
         "source": "User",
-        "status": "NB",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": -1,
@@ -60020,7 +60020,7 @@
         "pathways": null,
         "reversibility": "=",
         "source": "User",
-        "status": "NB",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": -2,
