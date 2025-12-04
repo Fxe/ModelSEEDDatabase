@@ -59888,7 +59888,9 @@
     {
         "abbreviation": "MtoAB",
         "abstract_reaction": null,
-        "aliases": null,
+        "aliases": [
+            "Name: MtoAB"
+        ],
         "code": "(1) cpd10515[1] + (1) cpd49022[0] <=> (1) cpd10516[1] + (1) cpd49021[0]",
         "compound_ids": "cpd10515;cpd10516;cpd49021;cpd49022",
         "definition": "(1) Fe+2[1] + (1) OMP Cytochrome C (Ox)[0] <=> (1) Fe+3[1] + (1) OMP Cytochrome C (Red)[0]",
@@ -59945,7 +59947,9 @@
     {
         "abbreviation": "MtoD",
         "abstract_reaction": null,
-        "aliases": null,
+        "aliases": [
+            "Name: MtoD"
+        ],
         "code": "(1) cpd00109[0] + (1) cpd49021[0] <=> (1) cpd00110[0] + (1) cpd49022[0]",
         "compound_ids": "cpd00109;cpd00110;cpd49021;cpd49022",
         "definition": "(1) Cytochrome c3+[0] + (1) OMP Cytochrome C (Red)[0] <=> (1) Cytochrome c2+[0] + (1) OMP Cytochrome C (Ox)[0]",
@@ -60002,7 +60006,9 @@
     {
         "abbreviation": "Cytc bb3",
         "abstract_reaction": null,
-        "aliases": null,
+        "aliases": [
+            "Name: Cytc bb3"
+        ],
         "code": "(2) cpd00110[0] + (1) cpd18081[0] <=> (2) cpd00109[0] + (1) cpd18082[0]",
         "compound_ids": "cpd00109;cpd00110;cpd18081;cpd18082",
         "definition": "(2) Cytochrome c2+[0] + (1) Cytochrome-cbb-ox[0] <=> (2) Cytochrome c3+[0] + (1) Cytochrome-cbb-red[0]",

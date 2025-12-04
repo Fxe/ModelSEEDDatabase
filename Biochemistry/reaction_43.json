@@ -8530,12 +8530,12 @@
             "MetaCyc: RXN-19241"
         ],
         "code": "(1) cpd11632[0] + (1) cpd35215[0] <=> (1) cpd31960[0]",
-        "compound_ids": "cpd11632;cpd31960;cpd35215",
-        "definition": "(1) hn[0] + (1) a cytosine-cytosine (6-4) photoproduct in DNA[0] <=> (1) two adjacent 2'-deoxycytidines in DNA[0]",
+        "compound_ids": "cpd00067;cpd11632;cpd31960;cpd35215",
+        "definition": "(1) hn[0] + (1) a cytosine-cytosine (6-4) photoproduct in DNA[0] <=> (1) H+[0] + (1) two adjacent 2'-deoxycytidines in DNA[0]",
         "deltag": 10000000.0,
         "deltagerr": 10000000.0,
         "ec_numbers": null,
-        "equation": "(1) cpd11632[0] + (1) cpd35215[0] <=> (1) cpd31960[0]",
+        "equation": "(1) cpd11632[0] + (1) cpd35215[0] <=> (1) cpd00067[0] + (1) cpd31960[0]",
         "id": "rxn43113",
         "is_obsolete": 0,
         "is_transport": 0,
@@ -8549,7 +8549,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:H:-1|CI:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -8566,6 +8566,14 @@
                 "compound": "cpd35215",
                 "formula": "C18H23N6O16P3R2",
                 "name": "a cytosine-cytosine (6-4) photoproduct in DNA"
+            },
+            {
+                "charge": 1,
+                "coefficient": 1,
+                "compartment": 0,
+                "compound": "cpd00067",
+                "formula": "H",
+                "name": "H+"
             },
             {
                 "charge": -3,
