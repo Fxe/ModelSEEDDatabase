@@ -42313,7 +42313,7 @@
         "pathways": null,
         "reversibility": "=",
         "source": "Primary Database",
-        "status": "MI:C:14/H:24/N:3/O:8/P:1/R:2|CI:-1",
+        "status": "MI:C:3/H:-1/O:1|CI:-1",
         "stoichiometry": [
             {
                 "charge": 1,

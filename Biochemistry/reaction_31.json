@@ -22715,7 +22715,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Published Model",
-        "status": "MI:H:-3/O:-3/R:-8|CI:3",
+        "status": "MI:H:-3/O:-3|CI:3",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -27143,7 +27143,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Published Model",
-        "status": "MI:H:-2/O:-2/R:-2|CI:2",
+        "status": "MI:H:-2/O:-2|CI:2",
         "stoichiometry": [
             {
                 "charge": -2,

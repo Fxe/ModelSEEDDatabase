@@ -18909,7 +18909,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Secondary Database",
-        "status": "MI:C:-1/H:-1/R:-2",
+        "status": "MI:C:10/H:24/N:3/O:7/P:1",
         "stoichiometry": [
             {
                 "charge": -4,
@@ -40452,7 +40452,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:11/H:21/N:2/O:7/P:1/R:1|CI:-2",
+        "status": "MI:H:-4/N:-1/R:-1|CI:-2",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -60299,7 +60299,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -61243,7 +61243,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -61974,7 +61974,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,

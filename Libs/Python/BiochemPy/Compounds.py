@@ -215,7 +215,7 @@ class Compounds:
             searchnames_list.append(searchname+ending)
             
         #remove redundant articles
-        if(re.search('^an?\s',searchname)):
+        if(re.search(r'^an?\s',searchname)):
             searchname = re.sub('^an?','',searchname)
             searchnames_list.append(searchname+ending)
 
@@ -226,11 +226,11 @@ class Compounds:
         if (formula.strip() in {None, "", "noFormula", "null"}):
             return {}
 
-        atoms = re.findall("\D[a-z]?\d*", formula)
+        atoms = re.findall(r"\D[a-z]?\d*", formula)
 
         atoms_dict = dict()
         for atom in atoms:
-            match = re.match("(\D[a-z]?)(\d*)", atom)
+            match = re.match(r"(\D[a-z]?)(\d*)", atom)
             atoms_dict[match.group(1)] = match.group(2)
 
             # Default empty string to 1
@@ -249,11 +249,11 @@ class Compounds:
                 re.findall("no[Ff]ormula", formula)) > 0):
             return ("null", Notes)
 
-        if (len(re.findall("(\)[nx])", formula)) > 0):
+        if (len(re.findall(r"(\)[nx])", formula)) > 0):
             Notes = "PO"
 
         global_atoms_dict = dict()
-        for subformula in re.findall("\(?([\w\s\.]+)\)?([nx*]?)?(\d?)",
+        for subformula in re.findall(r"\(?([\w\s\.]+)\)?([nx*]?)?(\d?)",
                                      formula):
             # The regex works, but returns empty hits for either beginning or end of string
             # The regex is trying to find formulas outside and within parentheses eg: Mg(Al,Fe)Si4O10(OH).4H2O
@@ -270,9 +270,9 @@ class Compounds:
                     fragment = fragment.strip()
                     fragment_multiplier = 1
                     # Fragments can have a multiplier at the beginning of the string, such as 4H2O
-                    if (len(re.findall("^(\d+)(.*)$", fragment))):
+                    if (len(re.findall(r"^(\d+)(.*)$", fragment))):
                         (fragment_multiplier, fragment) = \
-                        re.findall("^(\d+)(.*)$", fragment)[0]
+                        re.findall(r"^(\d+)(.*)$", fragment)[0]
                         fragment_multiplier = int(fragment_multiplier)
 
                     fragment_atoms_dict = Compounds.parseFormula(fragment)

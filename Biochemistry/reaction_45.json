@@ -18493,7 +18493,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:1/H:2/R:-1",
+        "status": "MI:C:1/H:2",
         "stoichiometry": [
             {
                 "charge": 1,
@@ -22495,7 +22495,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,

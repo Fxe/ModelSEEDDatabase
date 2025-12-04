@@ -6566,7 +6566,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:-21/H:-28/N:-7/O:-1/R:1|CI:-1",
+        "status": "MI:C:-21/H:-28/N:-7/O:-1|CI:-1",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -69662,7 +69662,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,

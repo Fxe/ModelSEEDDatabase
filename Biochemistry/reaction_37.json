@@ -52682,7 +52682,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Secondary Database",
-        "status": "MI:R:-4",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -52768,7 +52768,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Secondary Database",
-        "status": "MI:R:-4",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,

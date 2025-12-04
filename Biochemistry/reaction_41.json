@@ -2606,14 +2606,14 @@
             "metanetx.reaction: MNXR116510"
         ],
         "code": "(1) cpd11632[0] + (1) cpd23042[0] <=> (1) cpd26888[0]",
-        "compound_ids": "cpd00067;cpd11632;cpd23042;cpd26888",
-        "definition": "(1) hn[0] + (1) (6-4) photoproduct (in DNA)[0] <=> (1) H+[0] + (1) DNA-Adjacent-Pyrimidines[0]",
+        "compound_ids": "cpd11632;cpd23042;cpd26888",
+        "definition": "(1) hn[0] + (1) (6-4) photoproduct (in DNA)[0] <=> (1) DNA-Adjacent-Pyrimidines[0]",
         "deltag": 10000000.0,
         "deltagerr": 10000000.0,
         "ec_numbers": [
             "4.1.99.13"
         ],
-        "equation": "(1) cpd11632[0] + (1) cpd23042[0] <=> (1) cpd00067[0] + (1) cpd26888[0]",
+        "equation": "(1) cpd11632[0] + (1) cpd23042[0] <=> (1) cpd26888[0]",
         "id": "rxn41033",
         "is_obsolete": 0,
         "is_transport": 0,
@@ -2627,7 +2627,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:H:1/R:-1|CI:1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -2644,14 +2644,6 @@
                 "compound": "cpd23042",
                 "formula": "C18H18N4O18P3R4",
                 "name": "(6-4) photoproduct (in DNA)"
-            },
-            {
-                "charge": 1,
-                "coefficient": 1,
-                "compartment": 0,
-                "compound": "cpd00067",
-                "formula": "H",
-                "name": "H+"
             },
             {
                 "charge": -3,
@@ -23637,7 +23629,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": -1,
@@ -28201,12 +28193,12 @@
             "MetaCyc: RXN-19239"
         ],
         "code": "(1) cpd11632[0] + (1) cpd35570[0] <=> (1) cpd23037[0]",
-        "compound_ids": "cpd00067;cpd11632;cpd23037;cpd35570",
-        "definition": "(1) hn[0] + (1) a thymine-thymine (6-4) photoproduct in DNA[0] <=> (1) H+[0] + (1) thymidylyl-(3'-5')-thymidylate (in DNA)[0]",
+        "compound_ids": "cpd11632;cpd23037;cpd35570",
+        "definition": "(1) hn[0] + (1) a thymine-thymine (6-4) photoproduct in DNA[0] <=> (1) thymidylyl-(3'-5')-thymidylate (in DNA)[0]",
         "deltag": 10000000.0,
         "deltagerr": 10000000.0,
         "ec_numbers": null,
-        "equation": "(1) cpd11632[0] + (1) cpd35570[0] <=> (1) cpd00067[0] + (1) cpd23037[0]",
+        "equation": "(1) cpd11632[0] + (1) cpd35570[0] <=> (1) cpd23037[0]",
         "id": "rxn41365",
         "is_obsolete": 0,
         "is_transport": 0,
@@ -28220,7 +28212,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:H:1/R:-1|CI:1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -28237,14 +28229,6 @@
                 "compound": "cpd35570",
                 "formula": "C20H24N4O18P3R2",
                 "name": "a thymine-thymine (6-4) photoproduct in DNA"
-            },
-            {
-                "charge": 1,
-                "coefficient": 1,
-                "compartment": 0,
-                "compound": "cpd00067",
-                "formula": "H",
-                "name": "H+"
             },
             {
                 "charge": -3,
@@ -49028,7 +49012,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:11/H:21/N:2/O:7/P:1/R:1|CI:-2",
+        "status": "MI:H:-4/N:-1/R:-1|CI:-2",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -65017,7 +65001,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,

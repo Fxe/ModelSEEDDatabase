@@ -20031,7 +20031,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:-10/H:-7/N:-2/O:-2/R:1/S:-2|CI:-1",
+        "status": "MI:C:-10/H:-7/N:-2/O:-2/S:-2|CI:-1",
         "stoichiometry": [
             {
                 "charge": -3,
@@ -20540,7 +20540,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:C:-35/H:-31/Mg:-1/N:-4/O:-5/R:1|CI:1",
+        "status": "MI:C:-35/H:-31/Mg:-1/N:-4/O:-5|CI:1",
         "stoichiometry": [
             {
                 "charge": -3,
@@ -32627,12 +32627,12 @@
             "MetaCyc: RXN-19245"
         ],
         "code": "(1) cpd11632[0] + (1) cpd34664[0] <=> (1) cpd23037[0]",
-        "compound_ids": "cpd00067;cpd11632;cpd23037;cpd34664",
-        "definition": "(1) hn[0] + (1) a dimer of adjacent thymidines in DNA[0] <=> (1) H+[0] + (1) thymidylyl-(3'-5')-thymidylate (in DNA)[0]",
+        "compound_ids": "cpd11632;cpd23037;cpd34664",
+        "definition": "(1) hn[0] + (1) a dimer of adjacent thymidines in DNA[0] <=> (1) thymidylyl-(3'-5')-thymidylate (in DNA)[0]",
         "deltag": 10000000.0,
         "deltagerr": 10000000.0,
         "ec_numbers": null,
-        "equation": "(1) cpd11632[0] + (1) cpd34664[0] <=> (1) cpd00067[0] + (1) cpd23037[0]",
+        "equation": "(1) cpd11632[0] + (1) cpd34664[0] <=> (1) cpd23037[0]",
         "id": "rxn42424",
         "is_obsolete": 0,
         "is_transport": 0,
@@ -32646,7 +32646,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:H:1/R:-1|CI:1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -32663,14 +32663,6 @@
                 "compound": "cpd34664",
                 "formula": "C20H24N4O18P3R2",
                 "name": "a dimer of adjacent thymidines in DNA"
-            },
-            {
-                "charge": 1,
-                "coefficient": 1,
-                "compartment": 0,
-                "compound": "cpd00067",
-                "formula": "H",
-                "name": "H+"
             },
             {
                 "charge": -3,
@@ -34879,7 +34871,7 @@
         "pathways": null,
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:-1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
@@ -70071,7 +70063,7 @@
         ],
         "reversibility": "?",
         "source": "Primary Database",
-        "status": "MI:R:1",
+        "status": "OK",
         "stoichiometry": [
             {
                 "charge": 0,
